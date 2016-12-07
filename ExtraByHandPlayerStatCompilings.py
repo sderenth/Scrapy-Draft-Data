@@ -2,7 +2,7 @@ import psycopg2
 from operator import itemgetter
 
 try:
-    conn = psycopg2.connect(database='basketball', user='Sean', password='anders', host='localhost')
+    conn = psycopg2.connect(database='my_database', user='user_name', password='password', host='localhost')
     print("Connected Foos!!")
 except:
     print("I am unable to connect to the database.")
